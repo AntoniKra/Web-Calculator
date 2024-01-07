@@ -9,29 +9,51 @@
   <body>
     <main>
       <section id="screen">
-        <span>1</span>
+        <span id="result"></span>
       </section>
       <section id="keyboard">
-        <button class="grey">AC</button>
+        <button id="reset" class="grey">AC</button>
         <button class="grey">+/-</button>
         <button class="grey">%</button>
-        <button class="orange">÷</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="orange">X</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="orange">-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="orange">+</button>
-        <button id="zero">0</button>
+        <button class="orange basicOperation">÷</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="orange basicOperation">x</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="orange basicOperation">-</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="orange basicOperation">+</button>
+        <button class="number" id="zero">0</button>
         <button>,</button>
-        <button class="orange">=</button>
+        <button id="equal" class="orange">=</button>
+      </section>
+      <section class="hidden">
+        <div>
+          <p class="white">7x16</p>
+          <p class="green">=112</p>
+        </div>
+        <div>
+          <p class="white">8x8</p>
+          <p class="green">=64</p>
+        </div>
+        <div>
+          <p class="white">850-20</p>
+          <p class="green">=830</p>
+        </div>
+        <div>
+          <p class="white">320÷8</p>
+          <p class="green">=40</p>
+        </div>
+      </section>
+      <section class="hidden" id="History">
+        <button></button>
       </section>
     </main>
+    <script src="app.js"></script>
   </body>
 </html>

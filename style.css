@@ -58,6 +58,23 @@ button {
   background-color: rgb(218, 161, 39);
 }
 
+.reverseOrange {
+  background-color: white;
+  color: rgb(218, 161, 39);
+}
+
 button:hover {
   opacity: 0.7;
+}
+
+.white {
+  color: aliceblue;
+}
+
+.green {
+  color: greenyellow;
+}
+
+.hidden {
+  display: none;
 }
